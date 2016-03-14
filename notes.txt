@@ -1,0 +1,13 @@
+#1
+
+eval izračuna izraz
+exec izvede izraz
+
+python vse spremeljivke shranjuje v slovarju. Do njega dostopamo z globals()
+za slovarje računa hash() in točno ve kje je potem določen podatek shranjen
+
+locals() - znotraj funkcije izpiše katere spremenljivke so na voljo poleg globals()
+
+nonlocal - je ampak ne pri meni
+
+math.__dict__ <--- Namespace od modula
